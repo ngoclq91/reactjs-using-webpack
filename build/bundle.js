@@ -90,10 +90,11 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const math = __webpack_require__(/*! ./math */ \"./src/math.js\");\r\n\r\nconsole.log(`2 + 3 = ${math.sum(2, 3)}`);\r\nconsole.log(`3 - 2 = ${math.sub(3, 2)}`);\r\nconsole.log(`2 * 3 = ${math.mul(2, 3)}`);\r\nconsole.log(`3 / 2 = ${math.div(3, 2)}`);\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math */ \"./src/math.js\");\n\nconsole.log(\"2 + 3 = \".concat(Object(_math__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(2, 3))); // console.log(`2 + 3 = ${math.sum(2, 3)}`);\n// console.log(`3 - 2 = ${math.sub(3, 2)}`);\n// console.log(`2 * 3 = ${math.mul(2, 3)}`);\n// console.log(`3 / 2 = ${math.div(3, 2)}`);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -101,10 +102,11 @@ eval("const math = __webpack_require__(/*! ./math */ \"./src/math.js\");\r\n\r\n
 /*!*********************!*\
   !*** ./src/math.js ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const math = {\r\n    sum(a, b) { return a + b },\r\n    sub(a, b) { return a - b },\r\n    mul(a, b) { return a * b },\r\n    div(a, b) { return a / b },\r\n};\r\nmodule.exports = math;\n\n//# sourceURL=webpack:///./src/math.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// const math = {\n//     sum(a, b) { return a + b },\n//     sub(a, b) { return a - b },\n//     mul(a, b) { return a * b },\n//     div(a, b) { return a / b },\n// };\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (sum); // export class Math {\n//     sum(a, b) { return a + b };\n//     sub(a, b) { return a - b };\n//     mul(a, b) { return a * b };\n//     div(a, b) { return a / b };\n// }\n\n//# sourceURL=webpack:///./src/math.js?");
 
 /***/ })
 

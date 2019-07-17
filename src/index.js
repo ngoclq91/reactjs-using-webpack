@@ -1,4 +1,4 @@
-const math = require('./math');
+import math from './math.js';
 
 console.log(`2 + 3 = ${math.sum(2, 3)}`);
 console.log(`3 - 2 = ${math.sub(3, 2)}`);
