@@ -277,6 +277,7 @@
 	```bash
 		> $ npm install -D style-loader@lastest css-loader@lastest
 	```
+- [Tìm hiểu thêm tại đây](Webpack Loaders, CSS and Style Loaders)
 
 ### 5.1. Ví dụ
 - Giả định đã install 2 module `css-loader` và `style-loader` và các module babel, webpack xong.
