@@ -86,6 +86,29 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/image.css":
+/*!***********************!*\
+  !*** ./src/image.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/image.css?");
+
+/***/ }),
+
+/***/ "./src/image.js":
+/*!**********************!*\
+  !*** ./src/image.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _image_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./image.css */ \"./src/image.css\");\n/* harmony import */ var _image_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_image_css__WEBPACK_IMPORTED_MODULE_0__);\n\nvar image = document.createElement('img');\nimage.src = 'http://lorempixel.com/400/400';\ndocument.body.appendChild(image);\n\n//# sourceURL=webpack:///./src/image.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,7 +117,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math */ \"./src/math.js\");\n\nconsole.log(\"2 + 3 = \".concat(Object(_math__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(2, 3))); // console.log(`2 + 3 = ${math.sum(2, 3)}`);\n// console.log(`3 - 2 = ${math.sub(3, 2)}`);\n// console.log(`2 * 3 = ${math.mul(2, 3)}`);\n// console.log(`3 / 2 = ${math.div(3, 2)}`);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n/* harmony import */ var _image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./image */ \"./src/image.js\");\n\n\nconsole.log(\"2 + 3 = \".concat(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].sum(2, 3)));\nconsole.log(\"3 - 2 = \".concat(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].sub(3, 2)));\nconsole.log(\"2 * 3 = \".concat(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].mul(2, 3)));\nconsole.log(\"3 / 2 = \".concat(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].div(3, 2)));\ndocument.write(\"2 + 3 = \".concat(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].sum(2, 3)));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -106,7 +129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mat
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// const math = {\n//     sum(a, b) { return a + b },\n//     sub(a, b) { return a - b },\n//     mul(a, b) { return a * b },\n//     div(a, b) { return a / b },\n// };\nvar sum = function sum(a, b) {\n  return a + b;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (sum); // export class Math {\n//     sum(a, b) { return a + b };\n//     sub(a, b) { return a - b };\n//     mul(a, b) { return a * b };\n//     div(a, b) { return a / b };\n// }\n\n//# sourceURL=webpack:///./src/math.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar math = {\n  sum: function sum(a, b) {\n    return a + b;\n  },\n  sub: function sub(a, b) {\n    return a - b;\n  },\n  mul: function mul(a, b) {\n    return a * b;\n  },\n  div: function div(a, b) {\n    return a / b;\n  }\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (math);\n\n//# sourceURL=webpack:///./src/math.js?");
 
 /***/ })
 

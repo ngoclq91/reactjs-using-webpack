@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r esm ./src/index.js"
+    "start": "webpack && node -r esm ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.6"
   },
