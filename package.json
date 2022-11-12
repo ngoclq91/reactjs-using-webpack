@@ -21,6 +21,6 @@
   "homepage": "https://github.com/ngoclq91/reactjs-using-webpack#readme",
   "devDependencies": {
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   }
 }
